@@ -2,6 +2,8 @@
 const {app, BrowserWindow} = require('electron')
 const path = require('path')
 
+// 测试构建与e2e测试
+
 function createWindow () {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
